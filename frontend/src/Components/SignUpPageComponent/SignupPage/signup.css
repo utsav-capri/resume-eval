@@ -1,0 +1,31 @@
+.signup-wrapper {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center; 
+	justify-content: center;
+	/* background-color: rgb(41, 33, 33); */
+	background: linear-gradient(to top, #dfe9f3 100%, white 0%);
+}
+
+.signup-container {
+	width: 50vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	/* background-color: rgb(41, 33, 33); */
+	background: linear-gradient(to top, #dfe9f3 100%, white 0%);
+	color: #000;
+}
+
+.signup-btn {
+	background-color: rgb(201, 215, 215);
+	padding: 10px 40px;
+}
+
+.signup-btn:hover {
+	background-color: rgba(201, 215, 205, 0.172);
+	box-shadow: 10px;
+}

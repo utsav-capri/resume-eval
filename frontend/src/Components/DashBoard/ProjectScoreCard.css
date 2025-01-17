@@ -1,0 +1,60 @@
+/* .score-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+
+    margin: 20px;
+    height: 30%;
+  }
+  
+  .parameter {
+    margin: 10px 0;
+  }
+  
+  .progress-bar {
+    background-color: #f0f0f0;
+    height: 20px;
+    width: 100%;
+    border-radius: 10px;
+    position: relative;
+  }
+  
+  .progress-bar div {
+    background-color: #007bff;
+    height: 100%;
+    border-radius: 10px;
+    transition: width 0.5s;
+  }
+   */
+   @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+   .wrapper-project {
+    display: flex;
+    background: linear-gradient(to top, #dfe9f3 0%, white 100%);
+
+    /* align-items: center; */
+    flex-direction: column;
+    justify-content: space-around;
+    height: 20%;
+    width: 50%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+   }
+
+   .project-title {
+    text-align: center;
+   }
+
+   .individual_score {
+    /* align-items: center; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   }
+
+   .parameter-title {
+    text-align: center;
+
+   }

@@ -1,0 +1,14 @@
+.application-component-wrapper{
+    height: 90vh;
+    width: 100vw;
+    background-color: #f5f5f5;
+    display: flex;
+}
+
+.application-main-item-list{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 80%;
+  overflow-y: scroll;
+}

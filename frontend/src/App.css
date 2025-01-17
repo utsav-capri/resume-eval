@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+.main-wrapper{
+  background-color: #b8c5cb;
+  text-align: center;
+  height: 90vh;
+  width: 100vw;
+}
+
+.routes{
+  height: 90vh;
+}

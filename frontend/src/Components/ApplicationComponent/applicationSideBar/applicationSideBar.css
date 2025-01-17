@@ -1,0 +1,51 @@
+/* SideBar.css */
+.application-sidebar {
+    background: linear-gradient(to top, #dfe9f3 100%, white 0%);
+    width: 20%;
+    padding: 20px;
+    background-color: #b8c5cb;
+    color: #100909;
+  
+}
+
+.application-sidebar h2 {
+  font-size: 30px;
+  font-weight: bold;
+
+}
+.application-sidebar h1{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.application-sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.application-sidebar li {
+  margin-bottom: 10px;
+}
+
+
+.application-job-description {
+    margin-top: 15%;
+    padding: 10px;
+    background-color: rgb(201, 215, 215);
+    border-radius: 10px;
+    height: 70%;
+    border: 1px solid #000;
+    overflow-y: scroll;
+}
+
+.application-job-description h3 {
+    font-size: 16px;
+    color: #0e0c0c;
+    margin-bottom: 10px;
+}
+
+.application-job-description p {
+    font-size: 20px;
+    color: #120909;
+    font-weight: 400;
+}
